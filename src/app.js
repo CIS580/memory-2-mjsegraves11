@@ -24,6 +24,9 @@ console.log(board);
 canvas.onclick = function(event) {
   event.preventDefault();
   // TODO: determine which card was clicked on
+  if(event.x > 10) {
+    
+  }
   // TODO: determine what to do
 }
 
